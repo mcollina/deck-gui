@@ -1,8 +1,8 @@
 /* global shortcut */
 const {app, globalShortcut} = require('electron')
+
 var shortcuts = [
   require('./ctrl-cmd-h'),
-  require('./cmd-e'),
   require('./ctrl-n'),
   require('./ctrl-cmd-b'),
   require('./ctrl-cmd-d'),
